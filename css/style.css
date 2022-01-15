@@ -1,0 +1,82 @@
+        /* ##### START GOBAL CSS##### */
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #ffffff;
+        }
+        
+        .container-fluid {
+            width: 100%;
+        }
+        
+        .container {
+            max-width: 1300px;
+            margin: 0px auto;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        /* ##### END  GOBAL CSS##### */
+        h1{
+            text-align: center;
+            margin: 12px;
+            color: black;
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .box-hover{
+            height: 150px;
+            width: 150px;
+            margin: 5px 0px;
+            background: #DA22FF;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */            
+            transition: height 4s, width 4s, transform 4s;
+            
+
+        }
+        .box-hover:hover{
+            height: 250px;
+            width: 450px;
+            transform: rotate(180deg);
+            background: #acb6e5;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        #box-hover1:hover{
+            background: #00d2ff;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+        #box-hover2:hover{
+            transform: rotate(-180deg);
+            background: #f4c4f3;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+            }
+        #box-hover3:hover{ 
+            transform: rotate(-140deg);
+            background: #8A2387;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+        #box-hover4:hover{ 
+            background: #12c2e9;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
